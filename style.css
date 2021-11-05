@@ -1155,6 +1155,8 @@ span{
     .navHamb{
         display: none;
     }
+
+
     .icon {
       float: right;
       display: block;
@@ -1237,6 +1239,11 @@ span{
         flex-direction: column;
         align-items: center;
         align-content: center;
+    }
+
+    .impactoRetiro{
+        background: url(images/porquesmall.jpg);
+        background-size: cover;
     }
 
     .prevRetiro, .prevSalud{
