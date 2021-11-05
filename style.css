@@ -1,0 +1,1540 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.bodyInd {
+    background: linear-gradient(90deg, rgb(6, 44, 78),rgb(0, 5, 26));
+
+}
+.headerIndex{
+    background-image: url(/images/header.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+
+}
+
+.fa{
+    color: black;
+}
+
+.logo{
+    position: relative;
+    display: flex;
+    z-index: 9001;
+    width: 250px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    color:black;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding-bottom:0.3rem;
+    background-image: linear-gradient(rgb(0, 172, 149), rgb(77, 231, 167));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .4s;
+    width: max-content;
+}
+
+li:hover{
+    background-size: 100% 2px;
+}
+
+
+h1{    
+    color:white;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size: 2.6rem;
+    text-align: center;
+    margin-bottom:1.5rem;
+
+}
+
+h2{
+    color:white;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom:1rem;
+}
+
+.botonera{
+    display: flex;
+    flex-direction: row;
+    min-width:50vw;
+    justify-content: space-around;
+    margin-top:3rem;
+
+}
+
+.botonPrimario{
+    background-color: rgba(0, 0, 0, 0.137);
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0, 172, 149);
+    padding:1rem;
+    color:white;
+    min-width:20vw;
+}
+
+.botonPrimario:hover{
+    background-color: rgba(20, 172, 159, 0.514);
+    font-weight: 500;
+}
+
+h3{
+    color:white;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top:3rem;
+    margin-right:3rem;
+    margin-left:3rem;
+}
+
+.siniestros{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top:1rem;
+    margin-right:4rem;
+    margin-left:4rem;
+    padding:1rem;
+    align-items: center;
+    margin-bottom:2rem;
+    background: linear-gradient(90deg, rgb(9, 115, 101),rgb(1, 10, 49));
+
+}
+
+.tituloNos{
+    color:rgb(1, 10, 49);
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.tituloSin{
+    color:rgb(1, 10, 49);
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom:1rem;
+    text-align: center;
+}
+
+
+.pNos{
+    color: rgb(0, 5, 26);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size:1.1rem;
+    text-align: center;
+    margin-top:1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 2rem;
+
+}
+
+.companias{
+    display: flex;
+    flex-direction: column;
+    padding-top:3rem;
+    padding-bottom: 12rem;
+    background-color: azure;
+    background: linear-gradient(90deg, rgb(9, 63, 115),rgb(1, 10, 49));
+}
+
+.compTitulo{
+    color:rgba(255, 255, 255, 0.897);
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size:2rem;
+    text-align: center;
+    margin-left:4rem;
+    margin-right:4rem;
+    margin-top:4rem;
+    margin-bottom:6rem;
+}
+
+.companiasLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:4rem;
+    margin-right:4rem;
+    padding:6rem;
+    background: linear-gradient(90deg, rgb(9, 63, 115),rgb(1, 10, 49));
+    margin-bottom:6rem;
+}
+
+.logoComp{
+    width: 220px;
+}
+
+.datosgrua{
+background-color:white;
+display: flex;
+width: 80vw;
+margin:auto;
+align-items:center;
+padding-top:4rem;
+padding-bottom:4rem;
+
+}
+
+.datosAseg{
+    display:flex;
+}
+.butSiniestro{
+    background-color:white;  
+    border-radius:30px;
+    margin-top:2rem;
+    font-size: 1rem;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    padding:1rem;
+    border:none;
+    color: black;
+    width:10vw;
+}
+
+.nosotros{
+    background-color:rgb(245, 245, 245);
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom:12rem;
+}
+
+.botoneraSiniestros{
+    display: flex;
+    width: 70vw;
+    justify-content: space-evenly;
+}
+
+.formCont{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin:6rem;
+}
+
+.datosContacto{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.contacto{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content: space-between;
+    color:white;
+    
+}
+
+.seccionFinal{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.mapa{
+    width: 99%;
+    margin-right:2rem;
+}
+
+input, textarea{
+    background-color: rgba(0, 0, 0, 0.137);
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0, 172, 149);
+    padding:1rem;
+    color:white;
+    width:100%;
+    margin-bottom:2rem;
+}
+
+::placeholder {
+    color: rgb(6, 44, 78);
+    font-size: 1.2rem;
+  }
+
+textarea{
+    font-size: 1.2rem;
+}
+
+.tarjetasMain{
+    display: flex;
+    margin-left: 2rem;
+    margin-right:2rem;
+    margin-top:6rem;
+}
+
+.iconCard{
+    width:20%;
+}
+
+.cardMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+}
+
+.cardMainSin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+.cardSin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    width:50%;
+    margin-right: 1rem;
+    padding-top: 8rem;
+    padding-bottom:8rem;
+    background: linear-gradient(0deg, rgba(90,231,212,1) 0%, rgba(54,206,215,1) 100%);
+}
+
+.textSin{
+    margin-top:2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.vermas{
+    width: 10%;
+    margin-top: 1rem;
+}
+
+.siniestrosRow{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(245, 245, 245);
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom:6rem;
+    width:100%;
+    align-items: center;
+    
+}
+
+.contacto{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(7, 255, 255);
+}
+
+.oficinas{
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    width:100%;
+}
+
+.imgRed{
+    width:10%;
+    margin-right: 2rem;
+    margin-left:2rem;
+    margin-top:1rem;
+    margin-bottom:2rem;
+}
+.redes{
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+.redesA{
+    display: flex;
+    justify-content: center;
+}
+
+.FormBoton{
+    width: 12rem;
+    margin-bottom: 3rem;
+    margin:auto;
+    padding:1rem;
+    background-color: rgb(3, 224, 206);
+    border: none;
+    
+}
+
+.FormBoton:hover{
+    background-color: rgb(12, 7, 31);
+    color:white;
+}
+
+.h2cont{
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size:2rem;
+}
+
+
+/* SIGUE EL CSS DE SEGUROS*/
+
+.seguros{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: rgb(40,125,163);
+    background: linear-gradient(90deg, rgba(40,125,163,1) 0%, rgba(78,198,255,1) 100%);
+    padding-top:5rem;
+    padding-bottom:10rem;
+}
+
+.slidImg{
+    height: 100px;
+}
+
+.slider{
+    width: 80%;
+    min-height: 30vh;
+    margin: auto;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+.slidTitulo{
+    color: white;
+    margin: auto;
+}
+
+.seguroCard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(12, 8, 29, 0.418);
+    margin-right: 1rem;
+    min-height: 35vh;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    align-items: center;
+}
+
+.botonSlid{
+    margin:auto;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Urbanist', sans-serif;
+    font-size:1rem;
+    font-weight: 400;
+    border: 2px;
+    border-style: solid;
+    margin-top:2rem;
+    padding:1rem;
+    color:white;
+
+}
+
+.botonSlid:hover{
+    background-color: rgb(1, 10, 49);
+    border:none;
+}
+
+.iconFt{
+width: 20px;
+}
+
+.segurosEsp{
+    display: flex;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.prevRetiro{
+    display: flex;
+    align-items: flex-end;
+}
+
+.prevSalud{
+    display: flex;
+    align-items: flex-end;
+}
+
+.textPrev{
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    margin-right:2rem;
+    font-size: 1.3rem;
+}
+
+
+.butPrev{
+   background-color: rgb(190, 21, 154); 
+   color: white;
+   font-family: 'Urbanist', sans-serif;
+   font-size: 1.4rem;
+   padding:1rem;
+   border:none;
+}
+
+.butPrev:hover{
+    background-color: rgb(129, 17, 105); 
+}
+
+.butBank{
+    background-color: rgb(255, 100, 28); 
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.4rem;
+    padding:1rem;
+    border:none;
+ }
+ 
+ .butPrev:hover{
+     background-color: rgb(129, 17, 105); 
+ }
+
+
+.butRet{
+    background-color: rgb(99, 28, 165); 
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.4rem;
+    padding:1rem;
+    border:none;
+ }
+
+ .butRet:hover{
+    background-color: rgb(68, 19, 114);  
+ }
+
+ .textFooter:hover{
+     color:aqua;
+ }
+
+ /*CONTACTO*/
+
+.mainCont{
+    display: flex;
+    width:60%;
+    margin:auto;
+    margin-top: 3rem;
+    margin-bottom: 10rem; 
+    align-items: center;
+    justify-content: center;
+}
+
+.footerCont{
+    background: linear-gradient(90deg, rgb(6, 44, 78),rgb(0, 5, 26)); 
+}
+
+.contInp{
+    margin-bottom:1rem;
+    border:none;
+    border-bottom:3px solid rgb(6, 44, 78);
+    background-color: rgba(240, 248, 255, 0);
+    color:rgb(6, 44, 78);
+
+}
+
+.contTitle{
+    color:rgb(0, 5, 26);
+}
+
+.contTitle{
+    color:white;
+    font-size: 3rem;
+    margin:auto;
+}
+
+
+/*CLIENTE OF*/
+
+.bodyCliente{
+    background-color: white;
+}
+
+.headerCliente{ 
+    background-color:rgb(8, 44, 78);
+    width: 100%;
+    height: 60vh;
+}
+
+.headerTextCliente{
+    display: flex;
+    flex-direction:column;
+    height:60vh;
+    justify-content: center;
+    margin-left:2rem;
+    margin-right:2rem;
+    align-items: center;
+}
+
+.asideClien{
+    background: linear-gradient(180deg, rgb(6, 44, 78),rgb(0, 5, 26));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clientH2{
+    margin-top:1rem;
+    font-size: 3rem;
+    line-height: 2rem;
+    color:rgb(41, 212, 255);
+}
+
+.butCliente{
+    background-color: #dceaff00;
+    border: 2px solid white;
+    color:white;
+    font-size:1rem;
+    padding:1rem;
+    width:30vw;
+    margin:1rem;
+}
+
+.datosCliente{
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.mainClient{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin:auto;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    background: linear-gradient(90deg, rgb(21, 107, 182),rgb(28, 121, 138)); 
+    box-shadow: 3px 3px 30px rgba(4, 3, 22, 0.418);
+}
+
+.clienteSlid{
+    margin-top:15vw;
+    margin-bottom:15vw;
+}
+
+.tituloCliente{
+    margin:auto;
+    font-size: 3rem;
+
+}
+
+.liIndex{
+    color:white;
+    margin: 0px 32px 0px 0px;
+}
+
+.textoCostado{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+
+.navGeneral{
+    max-width: 100vw;
+    width: 100%;
+    transition: all 0.6s ease 0s;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(8, 44, 78);
+    z-index: 90000000;
+    padding-bottom: 1rem;
+}
+
+.navGeneralIndex{
+    max-width: 100vw;
+    width: 100%;
+    z-index: 90000000;
+    padding-bottom: 1rem;
+}
+
+.liIndexV2{
+    color:rgb(0, 0, 0);
+    margin: 0px 32px 0px 0px;
+}
+
+
+.navContainer{
+    max-width: 1120px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top:2rem;
+}
+
+.navText{
+    display:flex;
+}
+
+.sliderDenuncia{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, rgba(40,125,163,1) 0%, rgba(78,198,255,1) 100%);
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+    max-height:50vh;
+}
+
+.queNecesitas{
+    min-height: 50vh;
+    display: flex;
+}
+
+.queNecesitasRetiro{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:4rem;
+}
+
+.tarjetasMain2{
+    display: flex;
+    width:90vw;
+    margin:auto;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetasMainRetiro{
+    display: flex;
+    width:90vw;
+    margin:auto;
+    height: auto;
+    justify-content: center;
+}
+
+.tituloForms{
+    display: flex;
+    flex-direction: column;
+    padding-top:5rem;
+    padding-bottom:1rem;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, rgba(40,125,163,1) 0%, rgba(78,198,255,1) 100%);
+}
+
+.clientFormH2{
+    margin-top:1rem;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color:rgb(255, 255, 255);
+}
+
+.clientFormH3{
+    margin-top:1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color:rgb(255, 255, 255);
+}
+
+.pClie{
+    color: rgb(0, 5, 26);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size:1.3rem;
+    text-align: center;
+    margin-top:1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 2rem;
+}
+
+.siniestrosCont{
+    color:#0a042e;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.sinArea{
+    color:#0a042e;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.sinText{
+    color:#0a042e;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.sinText:hover{
+    color:rgb(0, 139, 163)
+}
+
+.sinButton{
+    font-family:'Roboto', sans-serif;
+    color:white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding:1rem;
+    background: linear-gradient(90deg, rgba(40,125,163,1) 0%, rgba(78,198,255,1) 100%);
+    border:none;
+    border-radius:15px;
+    margin-bottom:2rem;
+    margin-top:1rem;
+}
+
+.retButton{
+    font-family:'Roboto', sans-serif;
+    color:white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding:1rem;
+    background: linear-gradient(90deg, rgb(155, 14, 148) 0%, rgb(105, 17, 91) 100%);
+    border:none;
+    border-radius:15px;
+    margin-bottom:2rem;
+    margin-top:1rem;
+}
+
+.prevButton{
+    font-family:'Roboto', sans-serif;
+    color:white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding:1rem;
+    background: linear-gradient(90deg, rgb(182, 11, 91) 0%, rgb(133, 11, 72) 100%);
+    border:none;
+    border-radius:15px;
+    margin-bottom:2rem;
+    margin-top:1rem;
+}
+
+.bancButton{
+    font-family:'Roboto', sans-serif;
+    color:white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding:1rem;
+    background: linear-gradient(90deg, rgb(255, 109, 25) 0%, rgb(255, 71, 38) 100%);
+    border:none;
+    border-radius:15px;
+    margin-bottom:2rem;
+    margin-top:1rem;
+}
+
+.datosResp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    background-color: #dbdbdb1f;
+    padding-top:2rem;
+    padding-right:2rem;
+    padding-left:2rem;
+    
+}
+
+.cardHablemos{
+    background: linear-gradient(180deg, rgb(6, 44, 78),rgb(10, 23, 78));
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardRetiro{
+    background-color:#3e0646;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardPrevencion{
+    background-color:rgb(214, 2, 97);
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBanco{
+    background-color:rgb(255, 96, 34);
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerData{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    margin:auto;
+    margin-top:7rem;
+    margin-bottom:7rem;
+
+}
+
+.tituloSeguro{
+    font-size:2.5rem;
+}
+
+/*BANCO*/
+
+.headerBanco{ 
+    background-color:rgb(255, 100, 28); 
+    width: 100%;
+    height: 60vh;
+}
+
+.navBanco{
+    max-width: 100vw;
+    width: 100%;
+    transition: all 0.6s ease 0s;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color:rgb(255, 100, 28); 
+    z-index: 90000000;
+    padding-bottom: 1rem;
+}
+
+.iconCard2{
+    width: 3rem;
+    margin:auto;
+}
+
+/*RETIRO*/
+
+.headerRetiro{ 
+    background-color:rgb(100, 6, 95);
+    width: 100%;
+    height: 60vh;
+}
+
+.navRetiro{
+    max-width: 100vw;
+    width: 100%;
+    transition: all 0.6s ease 0s;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color:rgb(100, 6, 95);
+    z-index: 90000000;
+    padding-bottom: 1rem;
+}
+
+.retiroH2{
+    margin-top:1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    color:rgb(255, 198, 41);
+}
+
+.impactoRetiro{
+    background: url(images/porque.jpg);
+    background-size: cover;
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.impactoBanc{
+    background: url(images/bannerbanco.jpg);
+    background-size: cover;
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.textBank{
+    font-weight: 600;
+}
+
+.retiroFormH2{
+    margin-top:1rem;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color:rgb(255, 255, 255);
+    margin-left:3rem;
+}
+
+.retiroFormH3{
+    margin-top:1rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color:rgb(255, 255, 255);
+}
+
+.retiroImg{
+    margin-left:2rem;
+    margin-bottom:3rem;
+}
+
+/*PREVENCION SALUD*/
+
+.headerPrevencion{ 
+    background-color:rgb(255, 0, 116);
+    width: 100%;
+    height: 60vh;
+}
+
+.navPrevencion{
+    max-width: 100vw;
+    width: 100%;
+    transition: all 0.6s ease 0s;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color:rgb(231, 3, 106);
+    z-index: 90000000;
+    padding-bottom: 1rem;
+}
+
+.retiroH2{
+    margin-top:1rem;
+    font-size: 3rem;
+    line-height: 2rem;
+    color:rgb(255, 198, 41);
+}
+
+.logoPrev{
+    width:50%;
+    margin-top:6rem;
+    margin-bottom:3rem;
+}
+
+.tituloPrev{
+    margin:auto;
+    font-size: 3rem;
+    margin-bottom:1rem;
+    margin-left:0;
+}
+
+.banner{
+    width:100vw;
+}
+
+/*NOSOTROS*/
+
+.mainNosotros{
+    width: 70vw;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:7rem;
+}
+
+.fotoNos{
+    width: 50%;
+}
+
+.mainNosT{
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+.textNos{
+    margin:2rem;
+    text-align:justify;
+    font-size:1.5rem;
+    line-height: 2.5rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+.mainbiblio{
+    display:flex;
+    flex-wrap: wrap;
+    width:80vw;
+    margin:auto;
+    justify-content: center;
+}
+
+.cardVideo{
+    margin:1rem;
+    margin-top:2rem;
+    background-color: rgba(206, 206, 206, 0.205);
+    min-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titBiblio{
+    color:#0a042e;
+    font-size: 1.4rem;
+    padding-top:2rem;
+    padding-bottom:1rem;
+}
+
+.encabezadoVideos{
+    background: linear-gradient(90deg, rgb(6, 44, 78),rgb(0, 5, 26));
+    padding:4rem;
+}
+
+
+.icon {
+    display: none;
+  }
+
+
+
+  @media screen and (max-width: 875px) {
+    .navHamb{
+        display: none;
+    }
+    .icon {
+      float: right;
+      display: block;
+      margin-right:1rem;
+    }
+    .topnav.responsive {
+        position: absolute;
+        margin-top: 10rem;
+        margin-right: 1rem;
+        margin-left: 79%;
+    }
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive .navHamb {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .navHamb{
+        line-height: 2.5rem;
+    }
+
+    .navContainer{
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .icon{
+        position:absolute;
+        top:4rem;
+        right:1rem;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+
+    .containerData{
+        width: 90vw;
+        margin:auto;
+        margin-top:7rem;
+        margin-bottom:7rem;
+    }
+  
+    .tarjetasMainRetiro {
+        flex-direction: column;
+    }
+
+    .iconCard {
+        width: 13%;
+        margin-top: 2rem;
+    }
+
+    .retiroImg {
+        margin-left:0rem;
+        width: 20rem;
+    }
+
+    .retiroFormH3 {
+        margin-top: 3rem;
+    }
+
+    .retiroFormH2 {
+        margin-left: 0rem;
+    }
+
+    .impactoRetiro {
+        align-items:center;
+    }
+    .hablemos{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .segurosEsp{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .prevRetiro, .prevSalud{
+        margin-bottom:3rem;
+    }
+
+    .tituloNos{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .datosgrua{
+        flex-direction:column;
+        padding:1rem;
+    }
+    .botonera{
+        width:80vw;
+    }
+    
+}
+
+@media screen and (max-width: 1150px) {
+
+    .containerData{
+        width: 70vw;
+    }
+
+    .tarjetasMain{
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .vermas{
+        margin-top:0;
+    }
+
+    .cardMain{
+        margin-bottom:2rem;
+    }
+
+    .tituloCliente {
+        margin-top: 5rem;
+        font-size: 2.3rem;
+    }
+
+    .clientH2 {
+        font-size: 1.8rem;
+    }
+
+    .FormBoton {
+        width: 12rem;
+        margin:auto;
+    }
+    .formCont {
+        width: 70%;
+        margin: 0rem;
+    }
+
+    .textoCostado {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .imgRed{
+        width:15%;
+    }
+    .prevRetiro{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-bottom:2rem;
+        max-width:90vh;
+    }
+    .prevSalud{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        max-width:80vh;
+    }
+
+    .textPrev{
+        margin-right: 0;
+        
+    }
+
+    .tituloPrev {
+        margin: 0;
+        font-size: 2.1rem;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (min-width: 876px) {
+    .topnav{
+        display: flex;
+    }
+  
+  }
+
+@media screen and (max-width: 420px) {
+    .textNos {
+        margin: 0rem;
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .fotoNos{
+        width: 100%;
+        margin-top:2rem;
+    }
+
+    .imgRed {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .containerData{
+        width: 100vw;
+        margin:0;
+        margin-top:7rem;
+        margin-bottom:7rem;
+    }
+    
+    .tituloCliente {
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+
+    .clientH2 {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        width: 172px;
+    }
+
+    .botonera{
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .botonPrimario{
+        margin-bottom:2rem;
+        min-width: 70vw;
+    }
+
+    .FormBoton {
+        width: 12rem;
+        margin:auto;
+    }
+    .formCont {
+        width: 90%;
+        margin: 0rem;
+    }
+
+    .textoCostado {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    
+    .containerData{
+        flex-direction: column;
+        width: 80vw;
+        margin:auto;
+        margin-top:7rem;
+        margin-bottom:7rem;
+    }
+    .cardRetiro, .cardPrevencion, .cardBanco{
+        height: 15rem;
+        
+    }
+
+    .siniestrosCont{
+        font-size: 1.3rem;
+    }
+    
+    .sinArea{
+        font-size: 1.2rem;;
+    }
+    
+    .sinText{
+        font-size: 1rem;
+    }
+
+    .retButton, .prevButton, .bancButton{
+        font-size: 1rem;
+    }
+}
+
+.headerText{
+    display: flex;
+    flex-direction:column;
+    height:80vh;
+    justify-content: center;
+    margin-left:2rem;
+    margin-right:2rem;
+    align-items: center;
+}
+
+/*BANCO*/
+
+.insignias{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.badgeBanco{
+    width: 17rem;
+    margin: auto;
+}
+
+/*PRODUCTORES*/
+
+.titProd{
+    color:#0a042e;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+
+.prodButton{
+    background: linear-gradient(90deg, rgb(82, 29, 112),rgb(13, 108, 185));;  
+    border-radius:30px;
+    margin-top:2rem;
+    font-size: 1rem;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    padding:1rem;
+    border:none;
+    color: rgb(255, 255, 255);
+    width:10rem;
+}
+
+
+.cardProd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    flex-direction: column;
+    width: 22rem;
+    min-height: 25rem;
+}
+
+.tarjetasProd {
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom:4rem;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navBlanco{
+    color:white;
+}
+
+.tarjetasMainPrev{
+    display: flex;
+    margin-left: 2rem;
+    margin-right:2rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.cardMainPrev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    min-width: 25rem;
+}
+
+.iconCardPrev{
+    width:20%;
+}
+
+
+@media screen and (max-width: 400px) {
+    .iconCardPrev{
+        width:3rem;
+    }
+   
+    .cardMainPrev{
+        min-width: 18rem;
+    }
+
+}
+

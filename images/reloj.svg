@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="54px" viewBox="0 0 53 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>E663491F-C78A-4AF6-9FFC-4C6E48F70690</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="diseño-alta-Home---responsive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.-Home-|-Nav-medium-+-Top-notification" transform="translate(-561.000000, -695.000000)">
+            <g id="icon_tiempo" transform="translate(532.000000, 666.000000)">
+                <g id="Group-2">
+                    <g id="facil-icon-copy">
+                        <circle id="Oval" cx="56" cy="56" r="56"></circle>
+                    </g>
+                    <g id="icon-clock" transform="translate(30.000000, 30.514413)" stroke="#6F1DF9" stroke-width="3">
+                        <circle id="Oval" cx="25.4862043" cy="25.4855875" r="25"></circle>
+                        <line x1="25.4862043" y1="25.4855875" x2="32.8576645" y2="32.8570476" id="Line-4" stroke-linecap="round"></line>
+                        <line x1="25.4862043" y1="25.4855875" x2="25.4862043" y2="10.9538273" id="Line-4" stroke-linecap="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
